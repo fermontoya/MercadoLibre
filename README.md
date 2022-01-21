@@ -1,5 +1,5 @@
 # MercadoLibre
-Esta Api fue creada en asp.net core.
+Esta Api fue creada en .net core.
 
 para uso no requiere de ninguna instalacion.
 se puede testear su funcionamiento por medio postman o el software de su preferencia.
