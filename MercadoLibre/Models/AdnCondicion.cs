@@ -18,8 +18,6 @@ namespace MercadoLibre.Models
             string[] list = (string[])value;
             int variable = 0;
             bool result = true;
-            do
-            {
                 for (int i = 0; i < list.Length; i++)
                 {
                     for (int j = 0; j < list[i].Length; j++)
@@ -44,9 +42,7 @@ namespace MercadoLibre.Models
                             variable = 1;
                         }
                     }
-                }
-
-            } while (variable == 0);            
+                }           
             if (variable > 0) 
             {
                 result = false;
